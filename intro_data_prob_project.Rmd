@@ -1,0 +1,120 @@
+---
+title: "Exploring the BRFSS data"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+## Setup
+
+### Load packages
+
+```{r load-packages, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+### Load data
+
+Make sure your data and R Markdown files are in the same directory. When loaded
+your data file will be called `brfss2013`. Delete this note when before you submit 
+your work. 
+
+```{r load-data}
+#load("brfss2013.RData")
+```
+
+* * *
+
+## Part 1: Data
+
+#### Collection
+
+The BRFSS data is collected via telephone interviews
+of noninstitutionalized adults (those who are not prisoners or long-term patients) who 
+are 18 years old or older and live in the United States.
+
+These interviews are conducted by health departments in each state using in-house 
+interviewers, contracted telephone call centers, or universities.
+
+The phone numbers are obtained using a random digit dialing (RDD) technique 
+for both landlines and cell phones.
+
+#### Causality
+
+Because this data is not collected using a controlled experiment, 
+no causation of changes in the values of any variables can be determined.
+
+#### Generalizability
+
+Based on the fact that the 2013 American Community Survey (ACS)
+reported that 97.7% of all households in the U.S. have some form of telephone service,
+the method of acquiring phone numbers was a random dialing system,
+and the sample size was large at 491,775 observations,
+it could be argued that the sample statistics are generalizable to the the entire U.S. adult population.
+
+However, the willingness, or lack thereof, to participate in the survey could
+signal a significant difference between the disposition or lifestyle of those 
+who participated and those who declined to do so.
+
+
+* * *
+
+## Part 2: Research questions
+
+**Research quesion 1:**
+
+
+What time is it?
+
+
+
+
+
+**Research quesion 2:**
+
+
+What is your favorite food?
+
+
+
+
+
+**Research quesion 3:**
+
+
+
+
+
+* * *
+
+## Part 3: Exploratory data analysis
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button (green button with orange arrow) above. Make sure that your code is visible
+in the project you submit. Delete this note when before you submit your work.
+
+**Research quesion 1:**
+
+```{r}
+
+```
+
+
+
+**Research quesion 2:**
+
+```{r}
+
+```
+
+
+
+**Research quesion 3:**
+
+```{r}
+
+```
+
